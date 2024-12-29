@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./icomoon.eot?lle9j5');
+    src:  url('./icomoon.eot?lle9j5#iefix') format('embedded-opentype'),
+      url('./icomoon.ttf?lle9j5') format('truetype'),
+      url('./icomoon.woff?lle9j5') format('woff'),
+      url('./icomoon.svg?lle9j5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  .my-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-academic-enrichment:before {
+    content: "\e900";
+  }
+  .icon-address:before {
+    content: "\e901";
+  }
+  .icon-all:before {
+    content: "\e902";
+  }
+  .icon-arrow-bottom:before {
+    content: "\e903";
+  }
+  .icon-arrow-double-right:before {
+    content: "\e904";
+  }
+  .icon-arrow-left:before {
+    content: "\e905";
+  }
+  .icon-arrow-long-left:before {
+    content: "\e906";
+  }
+  .icon-arrow-long-right:before {
+    content: "\e907";
+  }
+  .icon-arrow-right:before {
+    content: "\e908";
+  }
+  .icon-arrow-right-top:before {
+    content: "\e909";
+  }
+  .icon-be:before {
+    content: "\e90a";
+  }
+  .icon-calander:before {
+    content: "\e90b";
+  }
+  .icon-calander-2:before {
+    content: "\e90c";
+  }
+  .icon-call:before {
+    content: "\e90d";
+  }
+  .icon-call-2:before {
+    content: "\e90e";
+  }
+  .icon-call-us:before {
+    content: "\e90f";
+  }
+  .icon-call-us-2:before {
+    content: "\e910";
+  }
+  .icon-career-dev:before {
+    content: "\e911";
+  }
+  .icon-checkmark:before {
+    content: "\e912";
+  }
+  .icon-checkmark-2:before {
+    content: "\e913";
+  }
+  .icon-colum:before {
+    content: "\e914";
+  }
+  .icon-comments:before {
+    content: "\e915";
+  }
+  .icon-community-and-events:before {
+    content: "\e916";
+  }
+  .icon-courses-completed:before {
+    content: "\e917";
+  }
+  .icon-design:before {
+    content: "\e918";
+  }
+  .icon-development:before {
+    content: "\e919";
+  }
+  .icon-discord:before {
+    content: "\e91a";
+  }
+  .icon-educational-leadership:before {
+    content: "\e91b";
+  }
+  .icon-education-empowering-learne:before {
+    content: "\e91c";
+  }
+  .icon-education-resources:before {
+    content: "\e91d";
+  }
+  .icon-embark-empowerment:before {
+    content: "\e91e";
+  }
+  .icon-eye:before {
+    content: "\e91f";
+  }
+  .icon-eye-cut:before {
+    content: "\e920";
+  }
+  .icon-facebook:before {
+    content: "\e921";
+  }
+  .icon-fax:before {
+    content: "\e922";
+  }
+  .icon-growth-team-help:before {
+    content: "\e923";
+  }
+  .icon-happy-students:before {
+    content: "\e924";
+  }
+  .icon-instagram:before {
+    content: "\e925";
+  }
+  .icon-instagram-2:before {
+    content: "\e926";
+  }
+  .icon-lesson:before {
+    content: "\e927";
+  }
+  .icon-linkedin:before {
+    content: "\e928";
+  }
+  .icon-location:before {
+    content: "\e929";
+  }
+  .icon-marketing:before {
+    content: "\e92a";
+  }
+  .icon-massage:before {
+    content: "\e92b";
+  }
+  .icon-massage-2:before {
+    content: "\e92c";
+  }
+  .icon-massage-3:before {
+    content: "\e92d";
+  }
+  .icon-media-activities:before {
+    content: "\e92e";
+  }
+  .icon-messenger-icon:before {
+    content: "\e92f";
+  }
+  .icon-online-support:before {
+    content: "\e930";
+  }
+  .icon-our-platform-caters-need:before {
+    content: "\e931";
+  }
+  .icon-play:before {
+    content: "\e932";
+  }
+  .icon-plus:before {
+    content: "\e933";
+  }
+  .icon-programs-courses:before {
+    content: "\e934";
+  }
+  .icon-quote:before {
+    content: "\e935";
+  }
+  .icon-quote-2:before {
+    content: "\e936";
+  }
+  .icon-row:before {
+    content: "\e937";
+  }
+  .icon-search:before {
+    content: "\e938";
+  }
+  .icon-service-station:before {
+    content: "\e939";
+  }
+  .icon-share:before {
+    content: "\e93a";
+  }
+  .icon-skill-dev-for-it:before {
+    content: "\e93b";
+  }
+  .icon-skill-expert:before {
+    content: "\e93c";
+  }
+  .icon-skype:before {
+    content: "\e93d";
+  }
+  .icon-star:before {
+    content: "\e93e";
+  }
+  .icon-technology-and-it:before {
+    content: "\e93f";
+  }
+  .icon-test-prep-exam:before {
+    content: "\e940";
+  }
+  .icon-time-hour:before {
+    content: "\e941";
+  }
+  .icon-twitter:before {
+    content: "\e942";
+  }
+  .icon-user:before {
+    content: "\e943";
+  }
+  .icon-user-2:before {
+    content: "\e944";
+  }
+  .icon-user-3:before {
+    content: "\e945";
+  }
+  .icon-user-star:before {
+    content: "\e946";
+  }
+  .icon-youtube:before {
+    content: "\e947";
+  }
+  .icon-global:before {
+    content: "\e948";
+  }
+  .icon-instractor:before {
+    content: "\e949";
+  }
+  .icon-key:before {
+    content: "\e94a";
+  }
+  .icon-quizzes:before {
+    content: "\e94b";
+  }
+  

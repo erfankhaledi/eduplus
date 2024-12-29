@@ -1,0 +1,1130 @@
+/* =================
+    Theme Base
+   =================*/
+   :root {
+    --color-primary: #179BD7;
+    --color-secondary: #1C1C1C;
+    --color-paragraph: #7B7E86;
+    --color-white: #ffffff;
+    --color-white2: #F6FDFF;
+    --color-white3: #F4F4F4;
+    --color-white4: #C0C6D7;
+    --color-white5: #f6f7fa;
+    --color-white6: #f5fbfd;
+    --color-white7: #e6e6e6;
+    --color-blue: #179BD7;
+    --color-black: #1C1C1C;
+    --color-black2: #7B7E86;
+    --color-black3: #1C1C25;
+    --color-border: #DDE0E9;
+    --title-font: "Kanit", sans-serif;
+    --body-font: "Kumbh sans", sans-serif;
+  }
+  
+  @media (min-width: 575px) {
+    .yearly-star-rating {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    .yearly-star-rating .year-title {
+      margin-bottom: 0;
+      width: 25%;
+    }
+  
+    .yearly-star-rating .star-rating-content {
+      width: 75%;
+    }
+  
+    /*-------------------
+        Client Say
+    -------------------*/
+    .client-say {
+      padding: 160px 0 260px 0;
+    }
+  
+    .client-say .swiper-button {
+      bottom: 20%;
+      right: 40%;
+    }
+  
+    .comments .comments-list .comments-list .list-content {
+      padding-left: 135px;
+    }
+  
+    .top-author {
+      padding: 60px;
+    }
+  
+    .top-author .top-icon {
+      width: 80px;
+      height: 80px;
+      font-size: 40px;
+    }
+  
+    .blog-card-content .card-info {
+      padding: 44px;
+    }
+  
+    .blog-card-content .card-info .card-title {
+      font-size: 36px;
+      line-height: 46px;
+    }
+  
+    .blog-card-content .card-info .card-top-content {
+      gap: 30px;
+    }
+  
+    .courses-details-left-content .top-content .instructor-info {
+      border-top: 1px solid var(--color-white7);
+      border-bottom: 1px solid var(--color-white7);
+    }
+  
+    .education-video-section .video-icon {
+      width: 116px;
+      height: 116px;
+      font-size: 35px;
+    }
+  
+    .chooses-skill-items li {
+      width: 170px;
+    }
+  
+    /*-------------------
+        Courses Cards
+      -------------------*/
+    .courses-cards.v2 .nav {
+      gap: 10px;
+    }
+  
+    /*-------------------
+        Blog Cards
+      -------------------*/
+    .blog-cards.v1 .card-content-1 .content-data .admin-data,
+    .blog-cards.v1 .card-content-2 .content-data .admin-data,
+    .blog-cards.v1 .card-content-3 .content-data .admin-data {
+      gap: 25px;
+    }
+  
+    /*-----------------------
+       Case Studies Content
+      -----------------------*/
+    .case-studies-content .case-studies-left-content .case-studies-contents {
+      padding-right: 30px;
+    }
+  
+    .case-studies-content .case-studies-left-content .case-studies-contents .case-content .case-icon {
+      display: block;
+    }
+  
+    /*--------------------------
+        Student Feedback Content
+      --------------------------*/
+    .student-feedback-content .feedback-right-content {
+      margin-left: 14px;
+    }
+  
+    /*-------------------
+        My Swiper Student Slider
+      -------------------*/
+    .my-swiper-student-slider .swiper-button-next,
+    .my-swiper-student-slider .swiper-button-prev {
+      display: block;
+    }
+  
+    /*-------------------
+        Choose Us Content
+      -------------------*/
+    .choose-us-content .choose-us-left-content .choose-us-small-img {
+      width: 220px;
+      height: 264px;
+      top: 94px;
+      left: -90px;
+    }
+  
+    /*-------------------
+        Cta
+      -------------------*/
+    .cta.v1 .cta-title .big-title {
+      color: var(--color-white);
+      font-size: 48px;
+      line-height: 58px;
+      font-weight: 500;
+    }
+  
+    /*---------------------
+        How It Work Content
+      ----------------------*/
+    .how-it-work-content.v1 .work-content-2,
+    .how-it-work-content.v1 .work-content-4 {
+      padding: 35px 30px 35px 55px;
+    }
+  
+    .how-it-work-content.v1 .work-content-1,
+    .how-it-work-content.v1 .work-content-3 {
+      padding: 35px 30px;
+    }
+  
+    .how-it-work-content.v1 .work-content-1 .work-icon,
+    .how-it-work-content.v1 .work-content-2 .work-icon,
+    .how-it-work-content.v1 .work-content-3 .work-icon,
+    .how-it-work-content.v1 .work-content-4 .work-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+      About Us Content
+     -------------------*/
+    .about-us-content.v1 .about-left-content {
+      display: grid;
+    }
+  
+    .about-us-content.v1 .about-left-content .content-box-1,
+    .about-us-content.v1 .about-left-content .content-box-2,
+    .about-us-content.v1 .about-left-content .content-img-1 {
+      margin-bottom: 0;
+    }
+  
+    .about-us-content.v1 .about-left-content .content-box-1 .title,
+    .about-us-content.v1 .about-left-content .content-box-2 .title {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    /*----------------------
+       Case Studies Cards
+      ----------------------*/
+    .case-studies-cards.v1 .card-content {
+      padding: 0 10px 0 40px;
+    }
+  
+    /*-------------------
+        Comments Area
+      -------------------*/
+    .comments-area {
+      padding: 50px 60px;
+    }
+  
+    /*-------------------
+        Team Content
+      -------------------*/
+    .team-content .team-member-details li {
+      width: 46%;
+    }
+  
+    /*-------------------
+        Founder Ceo
+      -------------------*/
+    .founder-ceo {
+      width: 80%;
+    }
+  
+    .case-studies-content .case-studies-right-content .discover-more {
+      max-width: 400px;
+    }
+  
+    /*---------------------
+        Footer Contact Info
+    ------------------------*/
+    .footer-contact-info .contact-data {
+      padding: 22px 47px;
+    }
+  
+    /*-----------------------------
+        Courses Cards List Content
+    -------------------------------*/
+    .courses-cards-list-content .courses-img {
+      min-width: 300px;
+      max-height: 220px;
+    }
+  
+    /*-------------------
+        Check Box
+    -------------------*/
+    .check-box.v1 .box-item {
+      width: 47%;
+    }
+  
+    .check-box.v2 .box-item {
+      width: 38%;
+    }
+  
+    /*-------------------
+        Contact Info
+    -------------------*/
+    .contact-info {
+      gap: inherit;
+    }
+  
+    .contact-info .contact-icon {
+      margin-left: 36px;
+    }
+  
+    /*-------------------
+        Banner Content
+    -------------------*/
+    .banner-content.v1 .section-title .big-title,
+    .banner-content.v2 .section-title .big-title,
+    .banner-content.v3 .section-title .big-title {
+      font-size: 80px;
+      line-height: 88px;
+      letter-spacing: 1.6px;
+    }
+  
+    /*-------------------
+        Awards
+    -------------------*/
+    .awards li {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    /*-------------------
+        Section Title
+    -------------------*/
+    .section-title .section-title-inner .big-title {
+      font-size: 48px;
+      line-height: 58px;
+      font-weight: 500;
+    }
+  
+    /*----------------------
+        Contact Us Content
+    ------------------------*/
+    .contact-us-content .contact-us-right-content {
+      padding: 60px 60px 80px 60px;
+    }
+  
+    .contact-us-content .contact-us-right-content .section-title {
+      margin-bottom: 50px;
+    }
+  
+    /*-------------------
+        Service Cards
+    -------------------*/
+    .service-cards {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    /*------------------------------
+        Courses Cards List Content
+    --------------------------------*/
+    .courses-cards-list-content {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    /*-------------------
+        Events Card
+    -------------------*/
+    .events-card {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    .events-card .events-card-content .title {
+      width: calc(100% - 40px);
+    }
+  
+    /*-------------------
+        Student Cards
+    -------------------*/
+    .student-cards .student-card {
+      margin-left: 64px;
+      padding: 54px 60px 54px 117px;
+    }
+  
+    .student-cards .student-card .user-img {
+      display: block;
+    }
+  
+    /*-------------------
+        Founder Ceo
+    -------------------*/
+    .founder-ceo {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  }
+  
+  @media (min-width: 767px) {
+    .about-us-content.v1 .about-right-content {
+      margin-top: 0;
+    }
+  
+    /*-------------------
+        Client Say
+    -------------------*/
+    .client-say .swiper-button {
+      bottom: 20%;
+      right: 20%;
+    }
+  
+    .client-say .mySwiper2-client {
+      width: 45%;
+    }
+  
+    .client-say .mySwiper-client .swiper-wrapper .swiper-slide .client-mini-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    .contact-us-contact-info .info-list .info-list-content {
+      padding: 60px 60px;
+    }
+  
+    .news-card .news-card-content .content-top {
+      gap: 25px;
+    }
+  
+    /*-------------------
+        Courses Cards
+      -------------------*/
+    .courses-cards.v2 .nav {
+      gap: 20px;
+    }
+  
+    /*-------------------
+        Breadcum
+      -------------------*/
+    .breadcum {
+      padding: 231px 0 185px 0;
+    }
+  
+    /*---------------------
+        Margin Left
+    -----------------------*/
+    .ml-25 {
+      margin-left: 25px;
+    }
+  
+    /*---------------------
+        Why Choose us
+    -----------------------*/
+    .why-choose-us.v1 .choose-us-right-content {
+      margin-left: 30px;
+    }
+  
+    .cta.v1 .cta-bg-right-img,
+    .cta.v1 .cta-bg-left-img {
+      display: block;
+    }
+  
+    /*---------------------
+        Courses Cards
+    -----------------------*/
+    .courses-cards.v1 .nav-tabs .nav-link.active::before {
+      display: block;
+    }
+  
+    .banner.v1 .banner-bg-left,
+    .banner.v1 .banner-bg-right {
+      display: block;
+    }
+  
+    /*---------------------
+        Main Area Content
+    -----------------------*/
+    .main-area-content.v1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        Mobile Menu Btn
+    -------------------*/
+    .mobile-menu-btn {
+      display: none;
+    }
+  
+    /*---------------------
+        Top Content Info
+    -----------------------*/
+    .top-content-info .content-info-data {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .top-content-info .content-info-data .search-option {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        Get Free Content
+    -------------------*/
+    .get-free-content .get-free-right-content {
+      padding: 40px 50px 80px 35px;
+    }
+  
+    .get-free-content .get-free-right-content .section-title {
+      margin-bottom: 36px;
+    }
+  
+    .get-free-content .get-free-right-content form .group-form-box {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    /*-------------------
+        Comments 
+    -------------------*/
+    .comments .comments-list li .list-content {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    /*-------------------
+        Comments Area
+    -------------------*/
+    .comments-area .form-box {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    .comments-area .form-box .box-info {
+      width: 50%;
+    }
+  
+    /*----------------------
+        Instructor Content
+    ------------------------*/
+    .instructor-content {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+      justify-content: inherit;
+    }
+  
+    .instructor-content .instructor-left-content .left-content-img img {
+      width: 170px;
+      height: 170px;
+    }
+  
+    /*-------------------
+        Courses Cards
+    -------------------*/
+    .courses-cards.v3 .courses-card {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    /*-----------------------
+        How It Work Content
+    ------------------------*/
+    .how-it-work-content.v3 .how-it-work-right-content {
+      padding-left: 23px;
+    }
+  
+    /*-------------------
+        Banner
+    -------------------*/
+    .banner.v3 .banner-img {
+      height: 100vh;
+      padding-top: 228px;
+    }
+  
+    .banner.v3 .swiper-banner .swiper-button-next,
+    .banner.v3 .swiper-banner .swiper-button-prev {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        Copyright section
+    -------------------*/
+    .copyright-section.v2 {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  
+    .copyright-section.v2 .copyright-content {
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+  
+    /*-------------------
+        Choose Us Content
+    -------------------*/
+    .choose-us-content .choose-us-left-content .choose-us-small-img {
+      display: block;
+    }
+  
+    .choose-us-content .choose-us-left-content .online-support {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 991px) {
+    .how-it-work-content.v2 .how-it-work-right-content {
+      margin-top: 0;
+    }
+  
+    .student-feedback-content .feedback-right-content {
+      margin-top: 0;
+    }
+  
+    /*-------------------
+        Why Choose Us
+    -------------------*/
+    .why-choose-us.v1 .choose-us-right-content {
+      margin-top: 0;
+    }
+  
+    /*-------------------
+        Banner Content
+    -------------------*/
+    .banner-content.v3 .banner-img {
+      padding: 228px 0 260px 0;
+    }
+  
+    /*-------------------
+        Client Say
+    -------------------*/
+    .client-say .swiper-button {
+      bottom: 20%;
+      right: 20%;
+    }
+  
+    .client-say .mySwiper-client {
+      left: 20%;
+    }
+  
+    /*-------------------
+        Cta
+    -------------------*/
+    .cta.v2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    .cta.v2 .cta-left-content {
+      width: 50%;
+      display: block;
+    }
+  
+    .cta.v2 .cta-left-content .play-icon {
+      width: 116px;
+      height: 116px;
+      font-size: 40px;
+    }
+  
+    .cta.v2 .cta-right-content {
+      width: 50%;
+      padding: 67px 70px;
+    }
+  
+    /*-------------------
+        Courses Cards
+      -------------------*/
+    .courses-cards.v2 .nav {
+      gap: 30px;
+    }
+  
+    /*-------------------
+        custom margin
+      -------------------*/
+    .mt-15 {
+      margin-top: 0;
+    }
+  
+    /*-------------------
+        Getting Started
+      -------------------*/
+    .getting-started {
+      gap: 72px;
+      margin-bottom: 92px;
+    }
+  
+    .blog-cards.v1 .card-content-2 .content-data,
+    .blog-cards.v1 .card-content-3 .content-data {
+      padding-right: 37px;
+    }
+  
+    .top-nav-search-option {
+      display: block;
+    }
+  
+    /*-----------------------
+        Choose Us Content
+    ------------------------*/
+    .choose-us-content .choose-us-left-content .choose-us-big-img {
+      margin: 0 50px 0 15px;
+    }
+  
+    /*-------------------
+        header Layout 1
+    -------------------*/
+    .header-layout1 .menu-area {
+      display: block;
+    }
+  
+    /*-------------------
+        Courses Grid Nav
+    -------------------*/
+    .courses-grid-nav .nav-tabs .nav-right-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        Contact Info 3
+    -------------------*/
+    .contact-info-3 .contact-info-data {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    .contact-info-3 .contact-info-data .location,
+    .contact-info-3 .contact-info-data .phone {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: start;
+      padding: 35px 40px;
+    }
+  
+    .contact-info-3 .contact-info-data .location .location-icon,
+    .contact-info-3 .contact-info-data .location .phone-icon,
+    .contact-info-3 .contact-info-data .phone .location-icon,
+    .contact-info-3 .contact-info-data .phone .phone-icon {
+      width: 70px;
+      height: 70px;
+      font-size: 24px;
+    }
+  
+    /*-----------------------
+        Header Top Content
+    -------------------------*/
+    .header-top-content.v2 {
+      padding: 0;
+    }
+  
+    .header-top-content.v2 .contact-info li {
+      padding: 14px 0;
+    }
+  
+    .header-top-content.v2 .contact-info li~li {
+      border-left: 1px solid #384350;
+      padding-left: 17px;
+    }
+  
+    /*-----------------------
+        Make An Appointment
+    -------------------------*/
+    .make-an-appointment {
+      padding: 0;
+    }
+  
+    .make-an-appointment .appointment-left-content {
+      display: block;
+      margin-top: -45px;
+    }
+  
+    .make-an-appointment .appointment-right-content {
+      padding-left: 73px;
+    }
+  
+    /*-------------------
+        Student Cards
+    -------------------*/
+    .student-cards .swiper-button-next,
+    .student-cards .swiper-button-prev {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        User Login
+    -------------------*/
+    .content-location,
+    .content-address {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        User Login
+    -------------------*/
+    .user-login {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        News Letter
+    -------------------*/
+    .news-letter {
+      padding: 59px 86px;
+    }
+  
+    /*-------------------
+         About us Content
+      -------------------*/
+    .about-us-content.v1 .about-right-content {
+      padding-left: 41px;
+    }
+  
+    .about-us-content.v2 .about-us-right-content {
+      margin-top: 0;
+      padding-left: 63px;
+    }
+  
+    /*-------------------
+         Register Now
+      -------------------*/
+    .register-now {
+      padding-top: 120px;
+      background-size: 100% 893px;
+    }
+  
+    .register-now .background-big-img {
+      display: block;
+    }
+  
+    /*-------------------
+         Get Free Content
+      -------------------*/
+    .get-free-content .get-free-left-content {
+      display: block;
+    }
+  
+    /*-------------------
+        Blog Cards
+    -------------------*/
+    .blog-cards.v1 .card-content-2,
+    .blog-cards.v1 .card-content-3 {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    .blog-cards.v1 .card-img-2,
+    .blog-cards.v1 .card-img-3 {
+      max-width: 238px;
+      height: 100%;
+    }
+  
+    .blog-cards.v1 .card-img-2 img,
+    .blog-cards.v1 .card-img-3 img {
+      -webkit-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+    }
+  
+    /*-------------------
+        how It Work Content
+    -------------------*/
+    .how-it-work-content.v1 {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+    }
+  
+    .how-it-work-content .work-content-1 {
+      margin: 0 -30px 0 30px;
+    }
+  
+    .how-it-work-content .work-content-2 {
+      margin: 0 30px 0 -30px;
+    }
+  
+    .how-it-work-content .work-content-1,
+    .how-it-work-content .work-content-2,
+    .how-it-work-content .work-content-3,
+    .how-it-work-content .work-content-4 {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media (min-width: 1199px) {
+  
+    /*-------------------
+         Section Title
+      -------------------*/
+    .section-title .section-title-inner.w-v1 {
+      width: 40%;
+    }
+  
+    .section-title .section-title-inner.w-v2 {
+      width: 50%;
+    }
+  
+    .section-title .section-title-inner.w-v3 {
+      width: 60%;
+    }
+  
+    .section-title .section-title-inner.w-v4 {
+      width: 70%;
+    }
+  
+    .section-title .section-title-inner.w-v5 {
+      width: 80%;
+    }
+  
+    .section-title .section-title-inner.w-v6 {
+      width: 90%;
+    }
+  
+    /*-------------------
+        Client Say
+    -------------------*/
+    .client-say .swiper-button {
+      bottom: 20%;
+      right: 20%;
+    }
+  
+    .client-say .mySwiper-client {
+      left: 25%;
+    }
+  
+    /*-------------------------------
+        Courses Details Left Content
+    ---------------------------------*/
+    .courses-details-left-content .top-content {
+      padding: 40px;
+    }
+  
+    .courses-details-left-content .top-content .instructor-info {
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  
+    .courses-details-left-content .top-content .instructor-info>li {
+      border-right: 1px solid var(--color-white7);
+    }
+  
+    /*-------------------
+        Banner Content
+    -------------------*/
+    .banner-content.v2 .swiper-banner .swiper-button-next,
+    .banner-content.v2 .swiper-banner .swiper-button-prev {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        Coursesv3
+    -------------------*/
+    .coursesv3 {
+      padding-bottom: 213px;
+    }
+  
+    /*----------------------
+       How It Work Content
+    ------------------------*/
+    .how-it-work-content.v2 .how-it-work-left-content {
+      padding-right: 80px;
+    }
+  
+    /*-------------------
+        Messenger Icon
+    -------------------*/
+    .messenger-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        Nav Middle Content
+    -------------------*/
+    .nav-middle-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        Courses Cards
+    -------------------*/
+    .courses-cards.v3 .swiper-button-next,
+    .courses-cards.v3 .swiper-button-prev {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        Header Layout 3
+    -------------------*/
+    .header-layout3 .menu-area-content .menu-area-right-content,
+    .header-layout2 .menu-area-content .menu-area-right-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-------------------
+        Features
+    -------------------*/
+    .features {
+      margin-top: -135px;
+      margin-bottom: 210px;
+    }
+  
+    /*-------------------
+        Team Member Data
+    -------------------*/
+    .team-member-data {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+      justify-content: inherit;
+      padding: 46px;
+    }
+  
+    /*-------------------
+        Features Card
+    -------------------*/
+    .features-card .card-content {
+      margin-bottom: 0;
+    }
+  
+    /*-------------------
+        Follow Us link
+    -------------------*/
+    .follow-us-link {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex !important;
+    }
+  
+    /*-------------------
+        Banner Content
+    -------------------*/
+    .banner-content.v1 {
+      padding: 213px 0 0px 0;
+    }
+  
+    /*-------------------
+        Banner
+    -------------------*/
+    .banner.v1 .banner-right-content {
+      display: block;
+    }
+  
+    /*-----------------------
+        Menu Contact Number
+    ------------------------*/
+    .menu-contact-number {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .client-say .swiper-button {
+      bottom: 20%;
+      right: 23%;
+    }
+  
+    .client-say .mySwiper-client {
+      left: 30%;
+    }
+  
+    .getting-started.v2 {
+      gap: 100px;
+    }
+  
+    .asked-question .asked-question-right-content {
+      display: block;
+    }
+  
+    .footer-contact-info {
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      gap: 10px;
+    }
+  
+    /*-------------------
+        Menu Social 
+    -------------------*/
+    .menu-social {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  
+    /*-----------------------
+        Contact Us Content
+    -------------------------*/
+    .contact-us-content {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      width: 100%;
+    }
+  
+    .contact-us-content .contact-us-img {
+      display: block;
+      width: 40%;
+    }
+  
+    .contact-us-content .contact-us-img img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .contact-us-content .contact-us-right-content {
+      width: 60%;
+    }
+  
+    /*-------------------
+        Catagoey
+    -------------------*/
+    .catagoey {
+      -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+      justify-content: inherit;
+    }
+  
+    /*-------------------
+        Banner Content
+    -------------------*/
+    .banner-content.v3 .swiper-banner .swiper-button-next,
+    .banner-content.v3 .swiper-banner .swiper-button-prev {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .client-say .swiper-button {
+      bottom: 20%;
+      right: 29%;
+    }
+  
+    .client-say .mySwiper-client {
+      left: 33%;
+    }
+  }
