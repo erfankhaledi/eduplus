@@ -42,9 +42,14 @@ export default function Banner(){
                                             {["Academic Enrichment", "Best Online Learning", "Personalized Learning", "Yet Student Support"].map((category, index) => (
                                                 <li key={index} className="catagoey-data">
                                                     <div className="category-icon">
-                                                        <i className="my-icon icon-academic-enrichment"></i>
+                                                        {/* <i className="my-icon icon-academic-enrichment"></i> */}
+
                                                     </div>
                                                     <a href="#" className="title">{category}</a>
+                                                    <div className="category-icon">
+                                                    
+                                                    <i className="bi bi-arrow-right-short"></i>
+                                                    </div>
                                                 </li>
                                             ))}
                                         </ul>

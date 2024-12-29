@@ -25,28 +25,28 @@ export default function Header(){
           <div className="para">Follow Us On: </div>
           <div className="follow-icon">
           <a href="#">
-                <i className="bi bi-facebook my-icon icon-facebook"></i>
+                <i className="bi bi-facebook my-icon icon-facebook" style={{ fontSize: '16px' }}></i>
             </a>
           </div>
             
             <div className="follow-icon">
                 <a href="#">
-                    <i className="bi bi-twitter my-icon icon-twitter"></i>
+                    <i className="bi bi-twitter my-icon icon-twitter" style={{ fontSize: '15px' }}></i>
                 </a>
             </div>
             <div className="follow-icon">
                 <a href="#">
-                    <i className="bi bi-instagram my-icon icon-instagram"></i>
+                    <i className="bi bi-instagram my-icon icon-instagram" style={{ fontSize: '15px' }}></i>
                 </a>
             </div>
             <div className="follow-icon">
                 <a href="#">
-                    <i className="bi bi-behance my-icon icon-be"></i>
+                    <i className="bi bi-behance my-icon icon-be" style={{ fontSize: '20px' }}></i>
                 </a>
             </div>
             <div className="follow-icon">
                 <a href="#">
-                    <i className="bi bi-youtube my-icon icon-youtube"></i>
+                    <i className="bi bi-youtube my-icon icon-youtube" style={{ fontSize: '20px' }}></i>
                 </a>
             </div>
         </div>
@@ -166,6 +166,7 @@ export default function Header(){
               <div className="navbar-right d-inline-flex d-lg-none">
                 <button type="button" className="menu-toggle">
                   <i className="my-icon icon-all"></i>
+                  <i className="fa fa-bars my-icon icon-all" style={{ fontSize: '28px' }}></i>
                 </button>
               </div>
             </div>
