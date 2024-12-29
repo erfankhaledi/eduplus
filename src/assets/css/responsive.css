@@ -978,7 +978,7 @@
     .header-layout2 .menu-area-content .menu-area-right-content {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
+      display: flex !important;
     }
   
     /*-------------------

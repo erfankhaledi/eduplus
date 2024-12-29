@@ -31,7 +31,7 @@ export default function Banner(){
                                             <a href="https://www.youtube.com/watch?v=pCuanWbgUt8" className="youtube">
                                                 <div className="play-content">
                                                     <div className="play-icon v1">
-                                                        <i className="my-icon icon-play"></i>
+                                                    <i class="bi bi-play-fill" style={{ fontSize: '50px' }}></i>
                                                     </div>
                                                     <h4 className="title">Play Now</h4>
                                                 </div>
@@ -83,16 +83,34 @@ export default function Banner(){
                                                 </div>
                                             </a>
                                         </div>
-                                        <ul className="catagoey animate__animated animate__fadeInUp" style={{ animationDuration: '2s' }}>
-                                            {/** Categories List **/}
-                                            {["Academic Enrichment", "Best Online Learning", "Personalized Learning", "Yet Student Support"].map((category, index) => (
-                                                <li key={index} className="catagoey-data">
-                                                    <div className="category-icon">
-                                                        <i className="my-icon icon-academic-enrichment"></i>
-                                                    </div>
-                                                    <a href="#" className="title">{category}</a>
-                                                </li>
-                                            ))}
+                                        <ul className="catagoey animate__fadeInUp"  style={{ animationDuration: '2s' }}>
+                                            <li className="catagoey-data">
+                                                <div className="category-icon">
+                                                    <i className="bi bi-arrow-right-short"></i>
+                                                </div>
+                                                <a href="#" className="title">
+                                                    Academic Enrichment
+                                                    <i className="bi bi-arrow-right-short"></i>
+                                                </a>
+                                            </li>
+                                            <li className="catagoey-data">
+                                                <div className="category-icon">
+                                                    <i className="my-icon icon-academic-enrichment"></i>
+                                                </div>
+                                                <a href="#" className="title">Best Online Learning</a>
+                                            </li>
+                                            <li className="catagoey-data">
+                                                <div className="category-icon">
+                                                    <i className="my-icon icon-academic-enrichment"></i>
+                                                </div>
+                                                <a href="#" className="title">Personalized Learning</a>
+                                            </li>
+                                            <li className="catagoey-data">
+                                                <div className="category-icon">
+                                                    <i className="my-icon icon-academic-enrichment"></i>
+                                                </div>
+                                                <a href="#" className="title">Yet Student Support</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

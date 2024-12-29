@@ -145,20 +145,21 @@ export default function Header(){
               <div className="menu-area-right-content">
                 <div className="header-login-regi">
                   <a href="login.html">
-                    <i className="my-icon icon-user"></i>
+                  <i className="bi bi-person-fill my-icon"></i>
                   </a>
                 </div>
 
                 <div className="search-option-box">
                   <input type="text" placeholder="Search..." />
                   <div className="search">
-                    <i className="my-icon icon-search"></i>
+                  <i className="bi bi-search my-icon"></i>
                   </div>
                   <i className="fa-solid fa-x close-icon"></i>
                 </div>
                 <div className="all-btn">
-                  <a href="contact.html" className="btn-p v1 btn-blue rounded icon-v1">
+                  <a href="contact.html" className="btn-p v1 btn-blue rounded icon-v1 d-flex align-items-center">
                     Apply Now
+                    <i className="bi bi-arrow-right-short" style={{ fontSize: '30px', marginLeft: '10px' }}></i>
                   </a>
                 </div>
               </div>
