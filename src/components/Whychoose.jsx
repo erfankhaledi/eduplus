@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSchool } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
@@ -17,11 +17,11 @@ export default function Whychoose() {
                 </div>
                 <div className="case-studies-cards v2">
                     <div className="row">
+                        {/* First Object */}
                         <div className="col-md-4 col-xl-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                             <div className="case-studies-card">
                                 <div className="item-icon">
-                                    <i className='my-icon fas fa-school'></i>
-                                    <FontAwesomeIcon icon={faSchool} color="blue" />
+                                    <FontAwesomeIcon icon={faLaptopCode} color="blue" className="my-icon"/>
                                 </div>
                                 <h4 className="item-title">Our Best Courses Help</h4>
                                 <p className="item-para">Entrust full-cycle implementation of software product to experienced</p>
@@ -33,11 +33,11 @@ export default function Whychoose() {
                                 </div>
                             </div>
                         </div>
+                        {/* Seconed Object */}
                         <div className="col-md-4 col-xl-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                             <div className="case-studies-card">
                                 <div className="item-icon">
-                                    <i className="my-icon icon-growth-team-help"></i>
-                                    <FontAwesomeIcon icon={faChalkboardTeacher} />
+                                    <FontAwesomeIcon icon={faChalkboardTeacher} className="my-icon"/>
                                 </div>
                                 <h4 className="item-title">Growth & Team Help</h4>
                                 <p className="item-para">Entrust full-cycle implementation of software product to experienced</p>
@@ -49,11 +49,11 @@ export default function Whychoose() {
                                 </div>
                             </div>
                         </div>
+                        {/* Third Object */}
                         <div className="col-md-4 col-xl-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
                             <div className="case-studies-card">
                                 <div className="item-icon">
-                                    <i className="my-icon icon-test-prep-exam"></i>
-                                    <FontAwesomeIcon icon={faGraduationCap} className="text-blue-500 text-2xl" />
+                                    <FontAwesomeIcon icon={faGraduationCap} className="my-icon" />
                                 </div>
                                 <h4 className="item-title">Test Prep and Exam</h4>
                                 <p className="item-para">Entrust full-cycle implementation of software product to experienced</p>

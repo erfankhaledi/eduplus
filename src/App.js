@@ -12,6 +12,10 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Whychoose from "./components/Whychoose";
 import AboutUs from "./components/Aboutus";
+import PopularCourses from "./components/Popular";
+import WhyChooseUs from "./components/WhyChooseUs";
+import GetFreeNow from "./components/GetFreeNow";
+import StudentFeedback from "./components/StudentFeedBack";
 
 export default function App(){
     return (
@@ -20,6 +24,10 @@ export default function App(){
             <Banner />
             <Whychoose />
             <AboutUs />
+            <PopularCourses />
+            <WhyChooseUs />
+            <GetFreeNow />
+            <StudentFeedback />
         </>
     )
 }

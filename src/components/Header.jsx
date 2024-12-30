@@ -25,7 +25,9 @@ export default function Header(){
           <div className="para">Follow Us On: </div>
           <div className="follow-icon">
           <a href="#">
-                <i className="bi bi-facebook my-icon icon-facebook" style={{ fontSize: '16px' }}></i>
+                {/* <i className="bi bi-facebook my-icon icon-facebook" style={{ fontSize: '16px' }}></i> */}
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+
             </a>
           </div>
             
