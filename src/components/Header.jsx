@@ -145,7 +145,7 @@ export default function Header(){
               <div className="menu-area-right-content">
                 <div className="header-login-regi">
                   <a href="login.html">
-                  <i className="bi bi-person-fill my-icon"></i>
+                  <i className="bi bi-person-fill my-icon" style={{ fontSize: '20px' }}></i>
                   </a>
                 </div>
 
