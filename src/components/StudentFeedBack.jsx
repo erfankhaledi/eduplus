@@ -1,4 +1,5 @@
 'use client'
+// Last update generated with v0.dev AI
 
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
