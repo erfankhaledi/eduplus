@@ -10986,22 +10986,20 @@ html {
 }
 
 .choose-us-accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
-  content: "";
-  font-family: "icomoon";
+  content: "\f070 "; /* This is an example Unicode for FontAwesome's eye icon. Adjust as necessary for your font. */
+  font-family: "FontAwesome"; /* Use the correct font family */
   width: 40px;
   height: 40px;
   background: var(--color-white);
   color: var(--color-primary);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   border-radius: 7px;
+  position: absolute; /* This allows us to position it correctly */
+  right: 10px; /* Adjust spacing */
+  top: 50%; /* Vertically center */
+  transform: translateY(-50%); /* Vertically center */
 }
 
 .choose-us-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
@@ -11011,8 +11009,8 @@ html {
   border: none;
 }
 
-.choose-us-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
-  content: "";
+/* .choose-us-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  content: "";
   font-family: "icomoon";
   width: 40px;
   height: 40px;
@@ -11028,8 +11026,30 @@ html {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 7px;
+} */
+
+.choose-us-accordion .accordion-item .accordion-header .accordion-button {
+  position: relative; /* Make the button the positioning context for the pseudo-element */
 }
 
+.choose-us-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  content: "\f06e"; /* This is an example Unicode for FontAwesome's eye icon. Adjust as necessary for your font. */
+  font-family: "FontAwesome"; /* Use the correct font family */
+  width: 40px;
+  height: 40px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  position: absolute; /* This allows us to position it correctly */
+  right: 10px; /* Adjust spacing */
+  top: 50%; /* Vertically center */
+  transform: translateY(-50%); /* Vertically center */
+}
+
+/*  */
 .choose-us-accordion .accordion-item .accordion-body {
   padding: 0 20px 30px 30px;
   color: var(--color-paragraph);

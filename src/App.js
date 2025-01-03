@@ -16,6 +16,8 @@ import PopularCourses from "./components/Popular";
 import WhyChooseUs from "./components/WhyChooseUs";
 import GetFreeNow from "./components/GetFreeNow";
 import StudentFeedback from "./components/StudentFeedBack";
+import WhyChooseUs1 from "./components/WhyChooseUs-1";
+import SkillSection from "./components/SkillSection";
 
 export default function App(){
     return (
@@ -28,6 +30,8 @@ export default function App(){
             <WhyChooseUs />
             <GetFreeNow />
             <StudentFeedback />
+            <WhyChooseUs1 />
+            <SkillSection />
         </>
     )
 }
