@@ -5011,8 +5011,8 @@ html {
 }
 
 .student-cards .swiper-button-next::after {
-  font-family: "icomoon";
-  content: "";
+  font-family: "";
+  content: "";
   font-size: 14px;
   margin-left: 10px;
 }
@@ -5028,7 +5028,7 @@ html {
 
 .student-cards .swiper-button-prev::before {
   font-family: "icomoon";
-  content: "";
+  content: "";
   font-size: 14px;
   margin-right: 10px;
 }

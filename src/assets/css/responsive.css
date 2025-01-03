@@ -130,7 +130,7 @@
       -------------------*/
     .my-swiper-student-slider .swiper-button-next,
     .my-swiper-student-slider .swiper-button-prev {
-      display: block;
+      display: block ;
     }
   
     /*-------------------
@@ -334,12 +334,12 @@
         Student Cards
     -------------------*/
     .student-cards .student-card {
-      margin-left: 64px;
-      padding: 54px 60px 54px 117px;
+      margin-left: 64px !important;
+      padding: 54px 60px 54px 117px !important;
     }
   
     .student-cards .student-card .user-img {
-      display: block;
+      display: block !important;
     }
   
     /*-------------------
@@ -755,7 +755,7 @@
     .student-cards .swiper-button-prev {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
+      display: flex !important;
     }
   
     /*-------------------
