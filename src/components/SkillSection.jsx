@@ -1,4 +1,6 @@
 import React from 'react';
+import skillleftimg from "../assets/img/skill-section/skill-left-img.png"
+import skillrightimg from "../assets/img/skill-section/skill-right-img.png"
 
 const SkillSection = () => {
     return (
@@ -44,10 +46,10 @@ const SkillSection = () => {
                 </ul>
             </div>
             <div className="skill-left-img">
-                <img src="assets/img/skill-section/skill-left-img.png" alt="skill-left-img" />
+                <img src={skillleftimg} alt="skill-left-img" />
             </div>
             <div className="skill-right-img">
-                <img src="assets/img/skill-section/skill-right-img.png" alt="skill-right-img" />
+                <img src={skillrightimg} alt="skill-right-img" />
             </div>
         </section>
     );
