@@ -2,6 +2,7 @@ import React from 'react';
 import userimg1 from "../assets/img/student-feedback/v2/user-img-1.jpg"
 import userimg2 from "../assets/img/student-feedback/v2/user-img-2.jpg"
 
+// width: 585px it's not responsive
 
 const StudentFeedback = () => {
     return (
