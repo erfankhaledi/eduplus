@@ -9,7 +9,7 @@ const SkillSection = () => {
                 <ul className="skill-items">
                     <li className="skill-item">
                         <div className="item-icon">
-                            <i className="my-icon icon-courses-completed"></i>
+                            <i className="fa fa-credit-card my-icon" aria-hidden="true"></i>
                         </div>
                         <div className="item-content">
                             <h5 className="title"><span className="counter">4.8</span>K</h5>
@@ -18,7 +18,7 @@ const SkillSection = () => {
                     </li>
                     <li className="skill-item">
                         <div className="item-icon">
-                            <i className="my-icon icon-media-activities"></i>
+                            <i className="fa fa-check-square-o my-icon" aria-hidden="true"></i>
                         </div>
                         <div className="item-content">
                             <h5 className="title"><span className="counter">325</span></h5>
@@ -27,7 +27,7 @@ const SkillSection = () => {
                     </li>
                     <li className="skill-item">
                         <div className="item-icon">
-                            <i className="my-icon icon-skill-expert"></i>
+                            <i className="fa fa-cogs my-icon" aria-hidden="true"></i>
                         </div>
                         <div className="item-content">
                             <h5 className="title"><span className="counter">598</span></h5>
@@ -36,7 +36,7 @@ const SkillSection = () => {
                     </li>
                     <li className="skill-item">
                         <div className="item-icon">
-                            <i className="my-icon icon-happy-students"></i>
+                            <i className="fa fa-user-md my-icon" aria-hidden="true"></i>
                         </div>
                         <div className="item-content">
                             <h5 className="title"><span className="counter">36</span>K</h5>

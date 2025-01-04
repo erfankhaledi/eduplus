@@ -18,6 +18,8 @@ import GetFreeNow from "./components/GetFreeNow";
 import StudentFeedback from "./components/StudentFeedBack";
 import WhyChooseUs1 from "./components/WhyChooseUs-1";
 import SkillSection from "./components/SkillSection";
+import OurBestTeam from "./components/OurBestTeam";
+import MakeAnAppointment from "./components/MakeAnAppointment";
 
 export default function App(){
     return (
@@ -32,6 +34,8 @@ export default function App(){
             <StudentFeedback />
             <WhyChooseUs1 />
             <SkillSection />
+            <OurBestTeam />
+            <MakeAnAppointment />
         </>
     )
 }
