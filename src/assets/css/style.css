@@ -596,7 +596,7 @@ input[type=button] {
 
 .all-btn .btn-p.icon-v2::after {
   font-family: "icomoon";
-  content: "";
+  content: "";
   font-size: calc(100% - 2px);
   font-style: normal;
   font-weight: normal;

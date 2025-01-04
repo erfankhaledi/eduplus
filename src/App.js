@@ -22,6 +22,8 @@ import OurBestTeam from "./components/OurBestTeam";
 import MakeAnAppointment from "./components/MakeAnAppointment";
 import HowItWorks from "./components/HowItWorks";
 import OurBlog from "./components/OurBlog";
+import ScrollToTop from "./components/BottomToTop";
+import Footer from "./components/Footer";
 
 export default function App(){
     return (
@@ -40,6 +42,8 @@ export default function App(){
             <MakeAnAppointment />
             <HowItWorks />
             <OurBlog />
+            <ScrollToTop />
+            <Footer />
         </>
     )
 }
