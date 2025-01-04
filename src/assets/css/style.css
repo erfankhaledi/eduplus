@@ -10258,8 +10258,8 @@ html {
 }
 
 .footer-content.v2 .footer-widget .quick-links li a::before {
-  content: "";
-  font-family: "icomoon";
+  content: "\e17b"; /* Replace this with the actual code for the chevron-double-right icon */
+  font-family: "icomoon"; /* Ensure this matches your icon font */
   font-size: calc(100% - 5px);
   font-style: normal;
   font-weight: normal;
@@ -10267,6 +10267,12 @@ html {
   text-transform: none;
   line-height: 1;
   margin-right: 5px;
+}
+
+/* Optional: Ensure appropriate alignment */
+.footer-content.v2 .footer-widget .quick-links li {
+  display: flex; /* This may help in aligning items */
+  align-items: center; /* Center vertically */
 }
 
 .footer-content.v2 .footer-widget .quick-links li a:hover {

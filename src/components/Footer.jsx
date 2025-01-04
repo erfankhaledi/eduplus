@@ -1,4 +1,16 @@
 import React from 'react';
+import logo2svg from "../assets/img/logo/logo-2.svg"
+import footer2bgimg from "../assets/img/footer/v2/footer-two-bg-img.jpg"
+import galleryimg1 from "../assets/img/footer/v2/gallary-img-1.jpg"
+import galleryimg2 from "../assets/img/footer/v2/gallary-img-2.jpg"
+import galleryimg3 from "../assets/img/footer/v2/gallary-img-3.jpg"
+import galleryimg4 from "../assets/img/footer/v2/gallary-img-4.jpg"
+import galleryimg5 from "../assets/img/footer/v2/gallary-img-5.jpg"
+import galleryimg6 from "../assets/img/footer/v2/gallary-img-6.jpg"
+
+
+
+
 
 const Footer = () => {
     return (
@@ -8,7 +20,7 @@ const Footer = () => {
                     <ul className="footer-contact-info">
                         <li className="contact-data">
                             <div className="data-icon">
-                                <i className="my-icon icon-location"></i>
+                                <i className="my-icon fa fa-map-marker" style={{ fontSize: '30px' }}></i>
                             </div>
                             <div className="data-info">
                                 <h5 className="para">Edupls Location</h5>
@@ -17,7 +29,7 @@ const Footer = () => {
                         </li>
                         <li className="contact-data">
                             <div className="data-icon">
-                                <i className="my-icon icon-massage"></i>
+                                <i className="my-icon fa fa-envelope" style={{ fontSize: '30px' }}></i>
                             </div>
                             <div className="data-info">
                                 <h5 className="para">E-mail Address</h5>
@@ -26,7 +38,7 @@ const Footer = () => {
                         </li>
                         <li className="contact-data">
                             <div className="data-icon">
-                                <i className="my-icon icon-call-us"></i>
+                                <i className="my-icon fa fa-phone" style={{ fontSize: '30px' }}></i>
                             </div>
                             <div className="data-info">
                                 <h5 className="para">Phone Number</h5>
@@ -38,28 +50,28 @@ const Footer = () => {
                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                             <div className="footer-widget">
                                 <div className="footer-logo">
-                                    <img src="assets/img/logo/logo-2.svg" alt="logo" />
+                                    <img src={logo2svg} alt="logo" />
                                 </div>
                                 <p className="widget-para">Reflect on your teaching or work seek feedback from supervisors improve your skills with us.</p>
                                 <ul className="footer-social-link">
                                     <li>
                                         <a href="#">
-                                            <i className="my-icon icon-twitter"></i>
+                                            <i className="my-icon fa fa-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="my-icon icon-linkedin"></i>
+                                            <i className="my-icon fa fa-linkedin"></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="my-icon icon-discord"></i>
+                                            <i className="my-icon bi bi-discord"></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="my-icon icon-instagram"></i>
+                                            <i className="my-icon fa fa-instagram"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -69,7 +81,9 @@ const Footer = () => {
                             <div className="footer-widget">
                                 <h4 className="widget-title">Quick Links</h4>
                                 <ul className="quick-links">
-                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">
+                                        <i className='fa fa-angle-double-righ'></i>
+                                        About Us</a></li>
                                     <li><a href="#">Our Mission</a></li>
                                     <li><a href="#">Meet The Teams</a></li>
                                     <li><a href="#">Our Projects</a></li>
@@ -82,39 +96,39 @@ const Footer = () => {
                                 <h4 className="widget-title">Photo Gallery</h4>
                                 <ul className="gallery-content">
                                     <li>
-                                        <img src="assets/img/footer/v2/gallary-img-1.jpg" alt="gallery-img" />
+                                        <img src={galleryimg1} alt="gallery-img" />
                                         <a href="#" className="gallery-btn">
-                                            <i className="fa-regular fa-eye"></i>
+                                            <i className="fa-regular fa fa-eye"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <img src="assets/img/footer/v2/gallary-img-2.jpg" alt="gallery-img" />
+                                        <img src={galleryimg2} alt="gallery-img" />
                                         <a href="#" className="gallery-btn">
-                                            <i className="fa-regular fa-eye"></i>
+                                            <i className="fa-regular fa fa-eye"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <img src="assets/img/footer/v2/gallary-img-3.jpg" alt="gallery-img" />
+                                        <img src={galleryimg3} alt="gallery-img" />
                                         <a href="#" className="gallery-btn">
-                                            <i className="fa-regular fa-eye"></i>
+                                            <i className="fa-regular fa fa-eye"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <img src="assets/img/footer/v2/gallary-img-4.jpg" alt="gallery-img" />
+                                        <img src={galleryimg4} alt="gallery-img" />
                                         <a href="#" className="gallery-btn">
-                                            <i className="fa-regular fa-eye"></i>
+                                            <i className="fa-regular fa fa-eye"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <img src="assets/img/footer/v2/gallary-img-5.jpg" alt="gallery-img" />
+                                        <img src={galleryimg5} alt="gallery-img" />
                                         <a href="#" className="gallery-btn">
-                                            <i className="fa-regular fa-eye"></i>
+                                            <i className="fa-regular fa fa-eye"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <img src="assets/img/footer/v2/gallary-img-6.jpg" alt="gallery-img" />
+                                        <img src={galleryimg6} alt="gallery-img" />
                                         <a href="#" className="gallery-btn">
-                                            <i className="fa-regular fa-eye"></i>
+                                            <i className="fa-regular fa fa-eye"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -127,7 +141,7 @@ const Footer = () => {
                                     <p className="para">Get 10% off your first order! Hurry up</p>
                                     <div className="email-address">
                                         <form>
-                                            <i className="fa-regular fa-envelope"></i>
+                                            <i className="fa-regular fa fa-envelope-o"></i>
                                             <input type="search" placeholder="Enter email address" />
                                         </form>
                                     </div>
