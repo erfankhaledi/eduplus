@@ -20,6 +20,8 @@ import WhyChooseUs1 from "./components/WhyChooseUs-1";
 import SkillSection from "./components/SkillSection";
 import OurBestTeam from "./components/OurBestTeam";
 import MakeAnAppointment from "./components/MakeAnAppointment";
+import HowItWorks from "./components/HowItWorks";
+import OurBlog from "./components/OurBlog";
 
 export default function App(){
     return (
@@ -36,6 +38,8 @@ export default function App(){
             <SkillSection />
             <OurBestTeam />
             <MakeAnAppointment />
+            <HowItWorks />
+            <OurBlog />
         </>
     )
 }
