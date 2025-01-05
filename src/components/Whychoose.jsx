@@ -10,7 +10,7 @@ export default function Whychoose() {
             <div className="container-lg">
                 <div className="section-title center">
                     <div className="section-title-inner center w-v2">
-                        <h4 className=" sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">case Studies</h4>
+                        <h4 className=" sub-title aos-init aos-animate  " data-aos="fade-down" data-aos-duration="1000">case Studies</h4>
                         <h2 className="big-title s-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Why People Choose Us?</h2>
                         <p className="title-para sp-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Our commitment extends beyond traditional classroom boundaries. We provide comprehensive support services</p>
                     </div>
