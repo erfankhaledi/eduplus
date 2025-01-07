@@ -3,8 +3,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import bgleft from "../assets/img/about-us/v2/bg-left.png"
 import leftimg from "../assets/img/about-us/v2/left-img.png"
-
+import AOS from "aos"
 const ProgressBar = ({ title, percentage }) => {
+  useEffect(() => {
+          AOS.init({
+              duration: 1000,
+              once: true,
+              offset: 100
+          });
+      }, []);
+    
   const [width, setWidth] = useState(50);
 
   useEffect(() => {
@@ -42,7 +50,7 @@ const AboutUs = () => {
         <div className="about-us-content v2">
           <div className="row align-items-center">
             <div className="col-xxl-5 col-lg-6 col-md-12">
-              <div className="about-us-left-content aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+              <div className="about-us-left-content" data-aos="zoom-in" data-aos-duration="1000">
                 <div className="left-img">
                   <img src={leftimg} alt="left-img" />
                 </div>
@@ -52,9 +60,9 @@ const AboutUs = () => {
               <div className="about-us-right-content">
                 <div className="section-title">
                   <div className="section-title-inner">
-                    <h4 className="sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">More About Us</h4>
-                    <h2 className="big-title s-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">We the focus and offerin your education platform.</h2>
-                    <p className="title-para sp-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Discover comprehensive programs and courses to enhance your knowledge and skills, whether you're pursuing a certificate, degree, or seeking professional development designed to meet the specific educational.</p>
+                    <h4 className="sub-title" data-aos="fade-down" data-aos-duration="1000">More About Us</h4>
+                    <h2 className="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">We the focus and offerin your education platform.</h2>
+                    <p className="title-para sp-color-black" data-aos="fade-up" data-aos-duration="1000">Discover comprehensive programs and courses to enhance your knowledge and skills, whether you're pursuing a certificate, degree, or seeking professional development designed to meet the specific educational.</p>
                   </div>
                 </div>
                 <ul className="progress-bars">

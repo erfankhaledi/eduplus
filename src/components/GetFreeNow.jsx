@@ -9,11 +9,11 @@ const GetFreeNow = () => {
                     <div className="col-lg-6">
                         <div className="section-title">
                             <div className="section-title-inner">
-                                <h4 className="sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">Get Free Now</h4>
-                                <h2 className="big-title s-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                                <h4 className="sub-title" data-aos="fade-down" data-aos-duration="1000">Get Free Now</h4>
+                                <h2 className="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">
                                     Register Now & Get Free Courses Online
                                 </h2>
-                                <p className="title-para sp-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                                <p className="title-para sp-color-black" data-aos="fade-up" data-aos-duration="1000">
                                     Education for sit amet, consectetur adipiscing elit. Morbi obortis ligula euismod
                                     sededesty am augue nisl so that line
                                 </p>

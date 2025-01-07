@@ -1,24 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
-import { faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode, faChalkboardTeacher, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
 
 export default function Whychoose() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    }, []);
+
     return (
         <section className="my-120">
             <div className="container-lg">
                 <div className="section-title center">
                     <div className="section-title-inner center w-v2">
-                        <h4 className=" sub-title aos-init aos-animate  " data-aos="fade-down" data-aos-duration="1000">case Studies</h4>
-                        <h2 className="big-title s-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Why People Choose Us?</h2>
-                        <p className="title-para sp-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Our commitment extends beyond traditional classroom boundaries. We provide comprehensive support services</p>
+                        <h4 className="sub-title" data-aos="fade-down">case Studies</h4>
+                        <h2 className="big-title s-color-black" data-aos="fade-up">Why People Choose Us?</h2>
+                        <p className="title-para sp-color-black" data-aos="fade-up">Our commitment extends beyond traditional classroom boundaries. We provide comprehensive support services</p>
                     </div>
                 </div>
                 <div className="case-studies-cards v2">
                     <div className="row">
                         {/* First Object */}
-                        <div className="col-md-4 col-xl-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <div className="col-md-4 col-xl-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                             <div className="case-studies-card">
                                 <div className="item-icon">
                                     <FontAwesomeIcon icon={faLaptopCode} color="blue" className="my-icon"/>
@@ -33,8 +40,8 @@ export default function Whychoose() {
                                 </div>
                             </div>
                         </div>
-                        {/* Seconed Object */}
-                        <div className="col-md-4 col-xl-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        {/* Second Object */}
+                        <div className="col-md-4 col-xl-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
                             <div className="case-studies-card">
                                 <div className="item-icon">
                                     <FontAwesomeIcon icon={faChalkboardTeacher} className="my-icon"/>
@@ -50,7 +57,7 @@ export default function Whychoose() {
                             </div>
                         </div>
                         {/* Third Object */}
-                        <div className="col-md-4 col-xl-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                        <div className="col-md-4 col-xl-4 col-sm-6" data-aos="fade-up" data-aos-delay="500">
                             <div className="case-studies-card">
                                 <div className="item-icon">
                                     <FontAwesomeIcon icon={faGraduationCap} className="my-icon" />

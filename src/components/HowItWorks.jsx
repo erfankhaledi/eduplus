@@ -14,34 +14,34 @@ const HowItWorks = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="how-it-work-left-content">
-                                <div className="left-img aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="1000">
+                                <div className="left-img" data-aos="zoom-in-up" data-aos-duration="1000">
                                     <img src={leftimg} alt="left-img" />
                                 </div>
-                                <p className="para aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                                <p className="para" data-aos="fade-up" data-aos-duration="1000">
                                     Gear up for the new academic year with our exclusive Back-to-School Specials! 
                                     Enjoy discounts on a wide range of courses and learning materials to kickstart your learning journey. 
                                     Bundle up and save big! Purchase our course bundles and enjoy a 10% discount on your total purchase. 
                                 </p>
                                 <ul className="check-box v1">
-                                    <li className="box-item aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+                                    <li className="box-item" data-aos="fade-right" data-aos-duration="1000">
                                         <div className="item-icon">
                                             <i className="my-icon fa fa-check-circle"></i>
                                         </div>
                                         <p className="item-para">Fast Growing Sells</p>
                                     </li>
-                                    <li className="box-item aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+                                    <li className="box-item" data-aos="fade-right" data-aos-duration="1000">
                                         <div className="item-icon">
                                             <i className="my-icon fa fa-check-circle"></i>
                                         </div>
                                         <p className="item-para">24/7 Quality Services</p>
                                     </li>
-                                    <li className="box-item aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+                                    <li className="box-item" data-aos="fade-right" data-aos-duration="1000">
                                         <div className="item-icon">
                                             <i className="my-icon fa fa-check-circle"></i>
                                         </div>
                                         <p className="item-para">Expert Members</p>
                                     </li>
-                                    <li className="box-item aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+                                    <li className="box-item" data-aos="fade-right" data-aos-duration="1000">
                                         <div className="item-icon">
                                             <i className="my-icon fa fa-check-circle"></i>
                                         </div>
@@ -54,17 +54,17 @@ const HowItWorks = () => {
                             <div className="how-it-work-right-content">
                                 <div className="section-title">
                                     <div className="section-title-inner">
-                                        <h4 className="sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">HOW IT WORK</h4>
-                                        <h2 className="big-title s-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                                        <h4 className="sub-title " data-aos="fade-down" data-aos-duration="1000">HOW IT WORK</h4>
+                                        <h2 className="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">
                                             We are focused on offering an education platform.
                                         </h2>
-                                        <p className="title-para sp-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                                        <p className="title-para sp-color-black" data-aos="fade-up" data-aos-duration="1000">
                                             Discover comprehensive programs and courses to enhance your knowledge and skills, 
                                             whether you're pursuing a certificate, degree, or seeking professional development designed to meet specific educational needs.
                                         </p>
                                     </div>
                                 </div>
-                                <div className="right-img aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="1000">
+                                <div className="right-img" data-aos="zoom-in-up" data-aos-duration="1000">
                                     <img src={rightimg} alt="right-img" />
                                     <div className="right-img-bg">
                                         <img src={rightimgbg} alt="right-img-bg" />

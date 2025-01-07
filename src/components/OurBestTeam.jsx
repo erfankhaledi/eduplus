@@ -9,12 +9,12 @@ const OurBestTeam = () => {
             <div className="container">
                 <div className="section-title v2">
                     <div className="section-title-inner">
-                        <h4 className="sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">our best team</h4>
-                        <h2 className="big-title s-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <h4 className="sub-title" data-aos="fade-down" data-aos-duration="1000">our best team</h4>
+                        <h2 className="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">
                             Our Most Popular Instructor
                         </h2>
                     </div>
-                    <div className="all-btn mt-15 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="all-btn mt-15" data-aos="fade-up" data-aos-duration="1000">
                         <a href="contact.html" className="btn-p v1 rounded btn-blue icon-v1">
                             Contact Us
                             <i className="fa fa-arrow-right" aria-hidden="true" style={{ marginLeft: '10px'}}></i>
@@ -23,7 +23,7 @@ const OurBestTeam = () => {
                 </div>
                 <div className="our-best-team-content v2">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <div className="col-lg-4 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                             <div className="team-data">
                                 <div className="data-img">
                                     <img src={teammember1} alt="team-member-img" />
@@ -56,7 +56,7 @@ const OurBestTeam = () => {
                                 <p className="para">Head of Chemistry</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        <div className="col-lg-4 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                             <div className="team-data">
                                 <div className="data-img">
                                     <img src={teammember2} alt="team-member-img" />
@@ -81,7 +81,7 @@ const OurBestTeam = () => {
                                 <p className="para">Head of Chemistry</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                        <div className="col-lg-4 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
                             <div className="team-data">
                                 <div className="data-img">
                                     <img src={teammember3} alt="team-member-img" />

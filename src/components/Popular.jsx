@@ -20,8 +20,8 @@ const PopularCourses = () => {
       <div className="container-fluid-md container-lg">
         <div className="section-title center">
           <div className="section-title-inner center">
-            <h4 className="sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">Our Courses Plan</h4>
-            <h2 className="big-title s-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Our Most popular Courses</h2>
+            <h4 className="sub-title" data-aos="fade-down" data-aos-duration="1000">Our Courses Plan</h4>
+            <h2 className="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">Our Most popular Courses</h2>
           </div>
         </div>
         <div className="courses-cards v2">
@@ -61,7 +61,7 @@ const PopularCourses = () => {
             <div className="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab" tabIndex="0">
               <div className="row">
                 {/* First Object */}
-                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800"
                   data-aos-delay="100">
                   <div className="courses-plan-card">
                     <div className="card-img">
@@ -102,7 +102,7 @@ const PopularCourses = () => {
                   </div>
                 </div>
                 {/* Seconed Object */}
-                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800"
                   data-aos-delay="100">
                   <div className="courses-plan-card">
                     <div className="card-img">
@@ -153,7 +153,7 @@ const PopularCourses = () => {
                   </div>
                 </div>
                 {/* Third Object */}
-                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800"
                   data-aos-delay="100">
                   <div className="courses-plan-card">
                     <div className="card-img">
@@ -195,7 +195,7 @@ const PopularCourses = () => {
                   </div>
                 </div>
                 {/* Fourth Object */}
-                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800"
                   data-aos-delay="100">
                   <div className="courses-plan-card">
                     <div className="card-img">
@@ -237,7 +237,7 @@ const PopularCourses = () => {
                   </div>
                 </div>
                 {/* Fifth Object */}
-                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800"
                   data-aos-delay="100">
                   <div className="courses-plan-card">
                     <div className="card-img">
@@ -278,7 +278,7 @@ const PopularCourses = () => {
                   </div>
                 </div>
                 {/* Sixth Object */}
-                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800"
                   data-aos-delay="100">
                   <div className="courses-plan-card">
                     <div className="card-img">
@@ -332,7 +332,7 @@ const PopularCourses = () => {
             </div>
           </div>
         </div>
-        <div className="all-btn v2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+        <div className="all-btn v2" data-aos="fade-up" data-aos-duration="1000">
           <a href="courses-grid.html" className="btn-p v1 btn-blue icon-v1 rounded">Explore Courses</a>
         </div>
       </div>

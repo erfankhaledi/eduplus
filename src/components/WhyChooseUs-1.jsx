@@ -8,9 +8,9 @@ const WhyChooseUs1 = () => {
                     <div className="col-lg-6">
                         <div className="section-title">
                             <div className="section-title-inner">
-                                <h4 className="sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">Why Choose Us?</h4>
-                                <h2 className="big-title s-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Frequently Asked Questions?</h2>
-                                <p className="title-para sp-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                                <h4 className="sub-title" data-aos="fade-down" data-aos-duration="1000">Why Choose Us?</h4>
+                                <h2 className="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">Frequently Asked Questions?</h2>
+                                <p className="title-para sp-color-black" data-aos="fade-up" data-aos-duration="1000">
                                     Teachers play a critical role in education by instructing and guiding students, facilitating learning, providing support and encouragement, and fostering a positive back to online new courses.
                                 </p>
                             </div>

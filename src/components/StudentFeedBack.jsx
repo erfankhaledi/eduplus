@@ -10,8 +10,8 @@ const StudentFeedback = () => {
             <div className="container">
                 <div className="section-title">
                     <div className="section-title-inner">
-                        <h4 className="sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">Student feedback</h4>
-                        <h2 className="big-title s-color-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Our Student feedback</h2>
+                        <h4 className="sub-title" data-aos="fade-down" data-aos-duration="1000">Student feedback</h4>
+                        <h2 className="big-title s-color-white" data-aos="fade-up" data-aos-duration="1000">Our Student feedback</h2>
                     </div>
                 </div>
                 <div className="student-cards">
@@ -118,11 +118,11 @@ const StudentFeedback = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="swiper-button-next aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-d76687f7029a84a7">
+                    <div className="swiper-button-next" data-aos="fade-up" data-aos-duration="1000" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-d76687f7029a84a7">
                       Next
                       <i class="fa fa-arrow-right" aria-hidden="true" style={{ marginLeft: '10px' }}></i>
                       </div>
-                    <div className="swiper-button-prev aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="swiper-button-prev" data-aos="fade-up" data-aos-duration="1000">
                     <i class="fa fa-arrow-left" aria-hidden="true" style={{ marginRight: '10px' }}></i>
                       Prev
                     </div>

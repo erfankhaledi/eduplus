@@ -10,13 +10,13 @@ const OurBlog = () => {
             <div className="container-xl">
                 <div className="section-title center">
                     <div className="section-title-inner w-v2 center">
-                        <h4 className="sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">Our blog</h4>
-                        <h2 className="big-title s-color-black aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Our Latest News & Blog Education Details</h2>
+                        <h4 className="sub-title" data-aos="fade-down" data-aos-duration="1000">Our blog</h4>
+                        <h2 className="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">Our Latest News & Blog Education Details</h2>
                     </div>
                 </div>
                 <div className="blog-cards v2">
                     <div className="row">
-                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                             <div className="blog-card">
                                 <div className="card-img">
                                     <a href="blog-details.html">
@@ -48,7 +48,7 @@ const OurBlog = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                             <div className="blog-card">
                                 <div className="card-img">
                                     <a href="blog-details.html">
@@ -81,7 +81,7 @@ const OurBlog = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
                             <div className="blog-card">
                                 <div className="card-img">
                                     <a href="blog-details.html">
