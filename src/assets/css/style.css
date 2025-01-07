@@ -10258,7 +10258,7 @@ html {
 }
 
 .footer-content.v2 .footer-widget .quick-links li a::before {
-  content: "\e17b"; /* Replace this with the actual code for the chevron-double-right icon */
+  content: ""; /* Replace this with the actual code for the chevron-double-right icon */
   font-family: "icomoon"; /* Ensure this matches your icon font */
   font-size: calc(100% - 5px);
   font-style: normal;
@@ -11339,13 +11339,13 @@ html {
 }
 
 .mobile-menu ul .submenu-item-has-children>a .mean-expand-class:before {
-  content: "";
+  content: "";
   font-family: "icomoon";
   font-weight: 700;
 }
 
 .mobile-menu ul .submenu-item-has-children.active-class>a .mean-expand-class:before {
-  content: "";
+  content: "";
 }
 
 .mobile-menu>ul {

@@ -81,13 +81,36 @@ const Footer = () => {
                             <div className="footer-widget">
                                 <h4 className="widget-title">Quick Links</h4>
                                 <ul className="quick-links">
-                                    <li><a href="#">
-                                        <i className='fa fa-angle-double-righ'></i>
-                                        About Us</a></li>
-                                    <li><a href="#">Our Mission</a></li>
-                                    <li><a href="#">Meet The Teams</a></li>
-                                    <li><a href="#">Our Projects</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fa fa-angle-double-right" aria-hidden="true" style={{ fontSize: '20px', marginRight: '8px' }}></i>
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fa fa-angle-double-right" aria-hidden="true" style={{ fontSize: '18px', marginRight: '8px' }}></i>
+                                            Our Mission
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-double-right" aria-hidden="true" style={{ fontSize: '18px', marginRight: '8px' }}></i>
+                                            Meet The Teams
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-double-right" aria-hidden="true" style={{ fontSize: '18px', marginRight: '8px' }}></i>
+                                            Our Projects
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-double-right" aria-hidden="true" style={{ fontSize: '18px', marginRight: '8px' }}></i>
+                                            Contact Us
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
