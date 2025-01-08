@@ -1128,3 +1128,73 @@
       left: 33%;
     }
   }
+
+
+  /* VO Generated Code */
+  .swiper-responsive {
+    width: 585px !important;
+}
+.swiper-wrapper {
+  /* transition-duration: 0ms;
+   transform: translate3d(-1230px, 0px, 0px);
+   transition-delay: 0ms; */
+}
+
+@media (max-width: 1400px) {
+    .swiper-responsive {
+      width: 545px !important;
+    }
+    .swiper-wrapper {
+      transition-duration: 0ms; 
+      transform: translate3d(-1150px, 0px, 0px) !important; 
+      transition-delay: 0ms;
+    }
+}
+
+@media (max-width: 1200px) {
+    .swiper-responsive {
+        width: 940px !important;
+    }
+    .swiper-wrapper {
+      transition-duration: 0ms;
+       transform: translate3d(-2910px, 0px, 0px) !important;
+       transition-delay: 0ms;;
+    }
+}
+
+@media (max-width: 991px) {
+    .swiper-responsive {
+        width: 700px !important;
+    }
+    .swiper-wrapper {
+      transition-duration: 0ms;
+      transform: translate3d(-2190px, 0px, 0px) !important;
+      transition-delay: 0ms;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-responsive {
+        width: 520px !important;
+    }
+    .swiper-wrapper {
+      transition-duration: 0ms;
+      transform: translate3d(-1650px, 0px, 0px) !important;
+      transition-delay: 0ms;
+    }
+}
+
+@media (max-width: 575px) {
+    .swiper-responsive {
+        width: 100% !important;
+    }
+    .swiper-responsive .student-card .user-img {
+      display: none !important;
+    }
+    .swiper-wrapper {
+      transition-duration: 0ms;
+      transform: translate3d(-1752px, 0px, 0px) !important; 
+      transition-delay: 0ms;
+    }
+}
+

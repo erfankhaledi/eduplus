@@ -4,6 +4,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import bgleft from "../assets/img/about-us/v2/bg-left.png"
 import leftimg from "../assets/img/about-us/v2/left-img.png"
 import AOS from "aos"
+
 const ProgressBar = ({ title, percentage }) => {
   useEffect(() => {
           AOS.init({

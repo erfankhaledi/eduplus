@@ -16,8 +16,8 @@ const StudentFeedback = () => {
                 </div>
                 <div className="student-cards">
                     <div className="swiper mySwiper-Student-feedback swiper-initialized swiper-horizontal swiper-backface-hidden">
-                        <div className="swiper-wrapper" id="swiper-wrapper-d76687f7029a84a7" style={{transitionDuration: '0ms', transform: 'translate3d(-1230px, 0px, 0px)', transitionDelay: '0ms'}}>
-                            <div className="swiper-slide" style={{ marginRight: '30px', width: '585px' }}>
+                        <div className="swiper-wrapper" id="swiper-wrapper-d76687f7029a84a7">
+                            <div className="swiper-slide swiper-responsive" style={{ marginRight: '30px' }}>
                                 <div className="student-card">
                                     <h4 className="title">DR.William/ <span>Student</span></h4>
                                     <p className="para">Education is a crucial field of study, as it helps us understand the impact of human activities</p>
@@ -42,7 +42,7 @@ const StudentFeedback = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="swiper-slide swiper-slide-prev" style={{ marginRight: '30px', width: '585px' }}>
+                            <div className="swiper-slide swiper-slide-prev swiper-responsive" style={{ marginRight: '30px' }}>
                                 <div className="student-card">
                                     <h4 className="title">DR.kasime/ <span>Student</span></h4>
                                     <p className="para">Education is a crucial field of study, as it helps us understand the impact of human activities</p>
@@ -67,7 +67,7 @@ const StudentFeedback = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="swiper-slide swiper-slide-active" style={{ marginRight: '30px', width: '585px' }}>
+                            <div className="swiper-slide swiper-slide-active swiper-responsive" style={{ marginRight: '30px' }}>
                                 <div className="student-card">
                                     <h4 className="title">DR.William/ <span>Student</span></h4>
                                     <p className="para">Education is a crucial field of study, as it helps us understand the impact of human activities</p>
@@ -91,7 +91,7 @@ const StudentFeedback = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="swiper-slide swiper-slide-next" style={{ marginRight: '30px', width: '585px' }}>
+                            <div className="swiper-slide swiper-slide-next swiper-responsive" style={{ marginRight: '30px' }}>
                                 <div className="student-card">
                                     <h4 className="title">DR.kasime/ <span>Student</span></h4>
                                     <p className="para">Education is a crucial field of study, as it helps us understand the impact of human activities</p>
