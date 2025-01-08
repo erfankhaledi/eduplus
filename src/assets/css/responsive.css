@@ -1193,32 +1193,32 @@
     }
 } */
 
-.swiper-slide {
-  width: 585px;
+.swiper-responsive {
+  width: 585px !important;
   margin-right: 30px;
 }
 
 @media (max-width: 1399px) {
-  .swiper-slide {
-      width: 545px;
+  .swiper-responsive {
+      width: 545px !important;
   }
 }
 
 @media (max-width: 1200px) {
-  .swiper-slide {
-      width: 940px;
+  .swiper-responsive {
+      width: 940px !important;
   }
 }
 
 @media (max-width: 991px) {
-  .swiper-slide {
-      width: 700px;
+  .swiper-responsive {
+      width: 700px !important;
   }
 }
 
 @media (max-width: 768px) {
-  .swiper-slide {
-      width: 520px;
+  .swiper-responsive {
+      width: 520px !important;
   }
 }
 
