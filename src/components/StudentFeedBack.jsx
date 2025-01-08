@@ -1,10 +1,34 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import userimg1 from "../assets/img/student-feedback/v2/user-img-1.jpg"
 import userimg2 from "../assets/img/student-feedback/v2/user-img-2.jpg"
 
 // width: 585px it's not responsive
 
 const StudentFeedback = () => {
+    const swiperWrapperRef = useRef(null);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 575) {
+                const pixelsBelowThreshold = 575 - window.innerWidth;
+                const transformValue = -1752 - (pixelsBelowThreshold * 3);
+                if (swiperWrapperRef.current) {
+                    swiperWrapperRef.current.style.transform = `translate3d(${transformValue}px, 0px, 0px)`;
+                }
+            } else {
+                if (swiperWrapperRef.current) {
+                    swiperWrapperRef.current.style.transform = '';
+                }
+            }
+        };
+
+        window.addEventListener('resize', handleResize);
+        handleResize(); // Call once to set initial state
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
     return (
         <section className="student-feedback v2 py-120">
             <div className="container">
@@ -16,7 +40,7 @@ const StudentFeedback = () => {
                 </div>
                 <div className="student-cards">
                     <div className="swiper mySwiper-Student-feedback swiper-initialized swiper-horizontal swiper-backface-hidden">
-                        <div className="swiper-wrapper" id="swiper-wrapper-d76687f7029a84a7">
+                        <div className="swiper-wrapper swiper-wrapper-responsive" id="swiper-wrapper-d76687f7029a84a7">
                             <div className="swiper-slide swiper-responsive" style={{ marginRight: '30px' }}>
                                 <div className="student-card">
                                     <h4 className="title">DR.William/ <span>Student</span></h4>
